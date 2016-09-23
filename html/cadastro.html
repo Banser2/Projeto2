@@ -1,0 +1,145 @@
+<script type="text/javascript" src="../js/jquery-3.1.0.min.js"></script><!--Referencia ao Jquery--><script type="text/javascript" src="../js/Projeto.js"></script><!--Referencia ao arquivo externo Javascript-->
+<meta charset="utf-8">
+<link href="../css/Projeto.css" rel="stylesheet" type="text/css" />
+
+
+
+
+    <form id="form"><!--A tag ul contem os titulos das abas-->
+<ul class="tabs">
+	<li><a href="#Create">Aluno</a></li>
+	<li><a href="#Read">Professor</a></li>
+	<li><a href="#Update">Administração</a></li>
+	
+</ul>
+        <div class="tab_container">
+                <div class="cont_tab" id="Create">
+                    <fieldset><legend>Cadastrar</legend>
+<table class="Color">
+<tbody>
+<tr>
+<td align="right"><label for="txtNome"><em>Nome:</em>
+</label></td>
+<td align="left"><input id="txtNome" type="text" autofocus="" required="" /></td>
+</tr>
+<tr>
+<td align="right"><label for="txtEmail"><em>Email:</em>
+</label></td>
+<td align="left"><input id="txtEmail" type="email" /></td>
+</tr>
+<tr>
+<td align="right"><label for="txtCpf"><em>CPF:</em>
+</label></td>
+<td align="left"><input id="txtCpf" title="Digite o CPF no formato nnn.nnn.nnn-nn" type="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" required="" /></td>
+</tr>
+<tr>
+<td align="right"><label for="txtIdade"><em>Idade:</em>
+</label></td>
+<td align="left"><input id="txtIdade" type="text" required="" /></td>
+</tr>
+<tr>
+<td align="right"></td>
+<td align="left"><input id="btnInserir" type="submit" value="Inserir" /></td>
+</tr>
+</tbody>
+</table>
+</fieldset>
+</div>
+<div class="cont_tab" id="Read">
+<fieldset><legend>Editar</legend>
+<table class="Color">
+<tbody>
+<tr>
+<td align="right"><label for="txtNome"><em>Nome:</em>
+</label></td>
+<td align="left"><input id="txtNome" type="text" autofocus="" required="" /></td>
+</tr>
+<tr>
+<td align="right"><label for="txtEmail"><em>Email:</em>
+</label></td>
+<td align="left"><input id="txtEmail" type="email" /></td>
+</tr>
+<tr>
+<td align="right"><label for="txtCpf"><em>CPF:</em>
+</label></td>
+<td align="left"><input id="txtCpf" type="cpf" required="" /></td>
+</tr>
+<tr>
+<td align="right"><label for="txtIdade"><em>Idade:</em>
+</label></td>
+<td align="left"><input id="txtIdade" type="text" required="" /></td>
+</tr>
+<tr>
+<td align="right"></td>
+<td align="left"><input id="btnEditar" type="submit" value="Editar" /></td>
+</tr>
+</tbody>
+</table>
+</fieldset>
+</div>
+<div class="cont_tab" id="Update">
+<fieldset><legend>Visualizar</legend>
+<table class="Color">
+<tbody>
+<tr>
+<td align="right"><label for="txtNome"><em>Nome:</em>
+</label></td>
+<td align="left"><input id="txtNome" type="text" autofocus="" required="" /></td>
+</tr>
+<tr>
+<td align="right"><label for="txtEmail"><em>Email:</em>
+</label></td>
+<td align="left"><input id="txtEmail" type="email" /></td>
+</tr>
+<tr>
+<td align="right"><label for="txtCpf"><em>CPF:</em>
+</label></td>
+<td align="left"><input id="txtCpf" type="cpf" required="" /></td>
+</tr>
+<tr>
+<td align="right"><label for="txtIdade"><em>Idade:</em>
+</label></td>
+<td align="left"><input id="txtIdade" type="text" required="" /></td>
+</tr>
+<tr>
+<td align="right"></td>
+<td align="left"><input id="btnEditar" type="submit" value="Editar" /></td>
+</tr>
+</tbody>
+</table>
+</fieldset>
+</div>
+<div class="cont_tab" id="Delete">
+<fieldset><legend>Excluir</legend>
+<table class="Color">
+<tbody>
+<tr>
+<td align="right"><label for="txtNome"><em>Nome:</em>
+</label></td>
+<td align="left"><input id="txtNome" type="text" autofocus="" required="" /></td>
+</tr>
+<tr>
+<td align="right"><label for="txtEmail"><em>Email:</em>
+</label></td>
+<td align="left"><input id="txtEmail" type="email" /></td>
+</tr>
+<tr>
+<td align="right"><label for="txtCpf"><em>CPF:</em>
+</label></td>
+<td align="left"><input id="txtCpf" type="cpf" required="" /></td>
+</tr>
+<tr>
+<td align="right"><label for="txtIdade"><em>Idade:</em>
+</label></td>
+<td align="left"><input id="txtIdade" type="text" required="" /></td>
+</tr>
+<tr>
+<td align="right"></td>
+<td align="left"><input id="btnExcluir" type="submit" value="Excluir" /></td>
+</tr>
+</tbody>
+</table>
+</fieldset>
+</div>
+</div>
+</form>
